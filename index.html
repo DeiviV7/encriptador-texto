@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encritador 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img class="imagen" src="img/logo.jpg">
+    </header>
+        <main class="inf_total">
+        <section class="orden_texto">
+            <textarea id="textoUsuario" class="texto_ingresado">Ingrese el texto aquí</textarea>
+        
+        <div class="diseño_botones">
+            <h6 class="texto6">»solo letras minusculas y sin acento</h6>
+            <button class="boton_encriptar" onclick="encriptaCion()">Encriptar</button>
+            <button class="boton_desencriptar" onclick="desencrptaCion()">Desencriptar</button>
+        </div>
+        </section>
+            <section class="textocopiar">
+        <section class="texto2">
+            <textarea id="desencriptado" class="texto_resultado"></textarea>
+            
+        </section>
+        
+            
+            <div class="btncopiar">
+                <button class="copiar" onclick="copiar()">copiar</button>
+            </div>
+        </section>
+        </main>
+    <footer class="footer">Desarrollor Deivi®</footer>
+<script src="/apps.js"></script>
+</body>
+</html>
